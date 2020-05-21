@@ -81,11 +81,11 @@ ul {
     list-style-type: none;
 }
 
-ul li {
+li {
 	border-bottom: 1px solid #9ce;
 }
 
-ul a {
+.link {
     
 	display: block;
 	width: 200px;
@@ -93,12 +93,12 @@ ul a {
 	padding: 10px;
     font-weight: bold; 
 	background-color: lightgreen;
-	color: black;
+    color: black; 
     border-left: 15px solid lightcyan;
     
 }
 
-ul a:hover {
+.link:hover {
 	width: 200px;
 	background-color: #28e;
 	color: #fff;
@@ -128,12 +128,123 @@ tr {
 }
 
 tr:hover{
-	background-color: #28e;
-    color: #fff;
-    font-weight: bold; 
+	background-color: #28e !important;
+    color: #fff !important;
+    font-weight: bold !important; 
 }
 
 td{
     width: 500px;
     text-align: center;
+}
+
+.ciemny{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    border: 1px solid black;
+}
+
+.jasny{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid lightsalmon;
+}
+
+.base{
+
+  width: 20px;
+  height: 20px;
+  background-color: lightblue;
+  border: 1px solid palevioletred;
+   
+}
+
+
+
+/* klasy dodawane przez js */
+
+.ciemne{
+    background-color: darkgray;
+}
+
+.ciemnyborder{
+    border: 2px solid black;
+}
+
+.cth{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.ctr {
+    height: 15px;
+	padding: 30px;
+    font-weight: bold; 
+	background-color: gray;
+    color: white;
+    border: 2px solid black;  
+}
+
+.ctd{
+    width: 500px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.clink {
+    
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	padding: 10px;
+    font-weight: bold; 
+	background-color: gray;
+    color: white; 
+    border-left: 15px solid black;
+    
+}
+
+.jasne{
+    background-color: white;
+}
+
+.jasnyborder{
+    border: 2px solid lightsalmon;
+}
+
+.jth{
+    background-color: lightsalmon;
+    color: black;
+    border: 2px solid lightsalmon;
+
+}
+.jtr {
+    height: 15px;
+	padding: 30px;
+    font-weight: bold; 
+	background-color: white;
+    color: black;
+    border: 2px solid lightsalmon;  
+}
+
+.jtd{
+    width: 500px;
+    text-align: center;
+    border: 2px solid lightsalmon;
+}
+
+.jlink {
+    
+	display: block;
+	width: 200px;
+	text-decoration: none;
+	padding: 10px;
+    font-weight: bold; 
+	background-color: lightsalmon;
+    color: black; 
+    border-left: 15px solid lightgray;
+    
 }
