@@ -128,9 +128,9 @@ tr {
 }
 
 tr:hover{
-	background-color: #28e !important;
-    color: #fff !important;
-    font-weight: bold !important; 
+	background-color: #28e;
+    color: #fff;
+    font-weight: bold; 
 }
 
 td{
@@ -188,6 +188,12 @@ td{
     border: 2px solid black;  
 }
 
+.ctr:hover{
+	background-color: white;
+    color: black;
+    font-weight: bold; 
+}
+
 .ctd{
     width: 500px;
     text-align: center;
@@ -205,6 +211,13 @@ td{
     color: white; 
     border-left: 15px solid black;
     
+}
+
+.clink:hover {
+	width: 200px;
+	background-color: black;
+	color: #fff;
+	border-left: 20px solid gray;
 }
 
 .jasne{
@@ -230,6 +243,12 @@ td{
     border: 2px solid lightsalmon;  
 }
 
+.jtr:hover{
+	background-color: lightgreen;
+    color: black;
+    font-weight: bold; 
+}
+
 .jtd{
     width: 500px;
     text-align: center;
@@ -247,4 +266,11 @@ td{
     color: black; 
     border-left: 15px solid lightgray;
     
+}
+
+.jlink:hover {
+	width: 200px;
+	background-color: lightgreen;
+	color: black;
+	border-left: 20px solid lightsalmon;
 }
